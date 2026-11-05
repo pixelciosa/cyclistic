@@ -1,9 +1,12 @@
 # Cyclistic: caso de estudio 
-## Análisis de uso del servicio de bicicletas urbanas de Chicago para su uso en marketing
+**Análisis de uso del servicio de bicicletas urbanas de Chicago para su uso en marketing**
 
-### [Presentación de resultados (PDF)](https://github.com/pixelciosa/cyclistic/edit/main/Cyclistic.pdf)
+## Brief
+El propósito de este proyecto es implementar los conocimientos adquiridos en la [Certificación de Google y Coursera Analista de Datos Profesional](https://www.coursera.org/programs/crece-con-google-2026-fundacion-compromiso-05nl2/specializations/google-data-analytics). Se abordó según los lineamientos del ejercicio y se buscaron rasgos de uso diferenciadores del segmento de usuarios casuales, frente a los miembros anuales. Cabe destacar que el segmento de usuarios de interés es 11 veces menor a su contraparte, con lo cual, me centré en buscar tendencias dentro del propio segmento y en rasgos que al compararlo con el segmento de miembros, los casuales lo superaran, los cuales fueron el tiempo promedio de uso y la proporción de los viajes redondos. 
+	
+### [Presentación de resultados (PDF)](https://github.com/pixelciosa/cyclistic/blob/main/Cyclistic.pdf)
 
-### Bitácora del proyecto
+## Bitácora del proyecto
 **Tarea de negocio:** Diferenciar los miembros anuales de los casuales según el uso que le dan a las bicicletas. Buscamos características que puedan usarse en estrategias de medios digitales para conseguir que los usuarios casuales prefieran ser miembros anuales.
 
 **Métricas:** duración promedio de viaje, proporción de viajes redondos, proporción de uso entre semana y fines de semana, distribución de tipos de usuario según horarios, días y meses de uso, principales estaciones de inicio y final del viaje.
