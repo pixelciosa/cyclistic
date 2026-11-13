@@ -13,7 +13,8 @@ El propósito de este proyecto es implementar los conocimientos adquiridos en la
 
 **Partes interesadas:** Directora de Marketing, Ejecutivos de Cyclistic  
 
-**Fuentes de datos utilizadas:**   
+**Fuentes de datos utilizadas:**
+[Enlace a datos](https://divvy-tripdata.s3.amazonaws.com/index.html)
 Los datos son publicados por la empresa que los recopila con licencia de uso público y limitado. No cuentan con ningún tipo de garantía, se entregan tal cual están, en archivos .zip. Los datos disponibles son desde 2013 y varía el alcance temporal de cada archivo a través del tiempo. El 2013 está en un solo archivo, del 2014 al 2017 inclusive, están en archivos semestrales (2 trimestres por archivo), del 2018 al primer trimestre del 2020 está en archivos trimestrales y desde abril 2020 en adelante hay un archivo por cada mes. 
 
 **Herramientas elegidas:** Google Spreadsheets y Jupiter Notebook para exploración y limpieza de datasets por separado. DBeaver para trabajar con el dataset unificado. Tableau para las visualizaciones.
