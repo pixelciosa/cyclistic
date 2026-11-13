@@ -14,7 +14,8 @@ El propósito de este proyecto es implementar los conocimientos adquiridos en la
 **Partes interesadas:** Directora de Marketing, Ejecutivos de Cyclistic  
 
 **Fuentes de datos utilizadas:**
-[Enlace a datos](https://divvy-tripdata.s3.amazonaws.com/index.html)
+[Link](https://divvy-tripdata.s3.amazonaws.com/index.html)
+
 Los datos son publicados por la empresa que los recopila con licencia de uso público y limitado. No cuentan con ningún tipo de garantía, se entregan tal cual están, en archivos .zip. Los datos disponibles son desde 2013 y varía el alcance temporal de cada archivo a través del tiempo. El 2013 está en un solo archivo, del 2014 al 2017 inclusive, están en archivos semestrales (2 trimestres por archivo), del 2018 al primer trimestre del 2020 está en archivos trimestrales y desde abril 2020 en adelante hay un archivo por cada mes. 
 
 **Herramientas elegidas:** Google Spreadsheets y Jupiter Notebook para exploración y limpieza de datasets por separado. DBeaver para trabajar con el dataset unificado. Tableau para las visualizaciones.
@@ -60,27 +61,27 @@ Los datos son publicados por la empresa que los recopila con licencia de uso pú
 
 **Análisis de datos:**
 
-| Métrica | Casual | Member |
+| Métrica | Casuales | Miembros |
 | :---- | :---- | :---- |
-| Duración promedio de viaje | **El \~88% de los viajes son de menos de una hora**, y el \~11% de más de una hora. tendencia que se mantiene estable entre el Q1 del 2029 y el Q1 del 2020\.  | El 99,7% de los viajes son de menos de una hora, y el 0,23% de más de una hora. tendencia que se mantiene estable entre el Q1 del 2029 y el Q1 del 2020\.  |
-| Duración promedio de viaje | **De los viajes de más de una hora, el 68% es de usuarios casuales** y 31% de miembros |  |
-| Duración promedio de viaje | **El promedio de viaje durante el Q1 es de \~1.5 horas**  | El promedio de viaje durante el Q1 es de 13 minutos  |
-| Duración promedio de viaje | El mes con **mayor promedio de viajes es febrero** y el de menor duración promedio es marzo | No varía significativamente entre los meses del Q1 |
-| Duración promedio de viaje | **El día de la semana con mayor tiempo promedio de viajes es el jueves** y el de menor duración promedio son miércoles y sábado.  | No varía significativamente entre los días de la semana del Q1 |
+| Distribución de la duración promedio de viaje | **El \~88% de los viajes son de menos de una hora**, y el \~11% de más de una hora. Tendencia que se mantiene estable entre el Q1 del 2029 y el Q1 del 2020\.  | El 99,7% de los viajes son de menos de una hora, y el 0,23% de más de una hora.  Tendencia que se mantiene estable entre el Q1 del 2029 y el Q1 del 2020\.  |
+| Duración promedio del viaje vs. media o mediana de viaje | Se observó que usar el promedio como métrica de duración ocultaba una pequeña cantidad de datos extremos que elevaban el promedio 3,8 veces por encima de la mediana, por lo que se usó la métrica del 2do cuartil, es decir la mediana, para las comparaciones. |  |
+| Mediana general de duración de viaje | **23 minutos**, es decir, 2,8 veces más que los miembros. | 8 minutos |
+| Duración del viaje del 3er cuartil (75%)  | **79 minutos**, es decir, 3 veces más que los miembros | 26 minutos |
+| Mediana de duración de viaje según el día de la semana | **La mediana de tiempo más alta es los domingos** con 26,78 minutos, **seguido del sábado** con 24,23 **y el miércoles** 23,78 minutos. Los demás días se mantiene por debajo de 20,5 minutos  | Es muy estable, aunque tiende a aumentar algunos segundos el fin de semana  |
+| Mediana de duración de viaje según el mes | El mes con **mayor duración media de viajes es marzo** y el de menor duración media es enero, posiblemente relacionado con las temperaturas que en enero tienden a ser las más bajas del invierno e incluso puede haber nieve. | Varía menos de 1 minuto entre los meses del Q1 |
 | Proporción de viajes redondos | **14% de los viajes de usuarios casuales empieza y termina en la misma estación** | 2% de los viajes de usuarios casuales empieza y termina en la misma estación |
 | Proporción de uso entre semana y fines de semana | La cantidad de usuarios casuales **aumenta el fin de semana siendo el Domingo el día más popular** con \+18.6 mil usuarios casuales. El día menos popular es el Lunes con un promedio de \+5.5 mil usuarios casuales.  | La cantidad de usuarios casuales disminuye el fin de semana siendo el Sábado el día menos popular con \+59.4 mil miembros. El día más popular es el Martes con un promedio de \+127.9 mil usuarios casuales.  |
 | Distribución de tipos de usuario según el mes | **Marzo** es el mes con mayor cantidad de viajes del Q1, llegando a sobrepasar a la suma de Enero y Febrero por \~13 mil viajes. | Marzo es el mes con mayor cantidad de viajes y febrero el más bajo, con una diferencia entre ellos de \~45 mil viajes. |
 | Distribución de tipos de usuario según horarios y días de uso | **La franja preferida por los usuarios casuales es durante el día los fines de semana** con \+14 mil usuarios promedio cada día. | La franja preferida por los usuarios casuales es durante la hora pico los días entre semana con \+71 mil usuarios cada día. |
 | Principales estaciones de inicio y final del viaje. | **Las estaciones más usadas son las que se ubican rodeando la costa, desde el Teatro del Lago hasta el Planetario Adler.**  | Las estaciones más usadas son las que se ubican desde Larrabee St & Kingsbury St. hasta Canal St & Adams St. con concentración en la zona de la terminal de tren. |
-| Principales estaciones de inicio y final del viaje. | **Destacan Streeter Dr & Grand Ave** y Lake Shore Dr & Monroe St. con \+2.7 viajes casuales en promedio. | Destacan Canal St & Adams St y Clinton St & Madison St con \+13.3 mil viajes de miembros |
-| Principales estaciones de inicio y final del viaje. | **En viajes redondos la estación más elegida para viajes casuales es Lake Shore Dr & Monroe St** con \+700 viajes. Seguido por distintas estaciones que bordean o están cerca de la costa | En viajes redondos las 10 estaciones más elegidas entre los miembros rondan los 110 viajes y se ubican desde California Ave & Motrose Ave al norte hasta Shore Dr & 55th St al sur con concentración en la zona media entre el río Chicago y su desembocadura en el lago Michigan. La que más viajes tiene es Wabash Ave & Grand Av con un promedio de 162 viajes redondos de miembros. |
+| Principales estaciones de inicio del viaje. | **Destacan Streeter Dr & Grand Ave** y Lake Shore Dr & Monroe St. con \+2.7 mil viajes casuales en promedio. | Destacan Canal St & Adams St y Clinton St & Madison St con \+13.3 mil viajes de miembros |
+| Principales estaciones de final del viaje. | **También destacan Streeter Dr & Grand Ave, con mil devoluciones más que retiros** y Lake Shore Dr & Monroe St. con 2.1 mil usuarios casuales finalizando el viaje. | Al igual que en el retiro de bicicletas, destacan Canal St & Adams St y Clinton St & Madison St con \+14.5 mil viajes de miembros finalizados. |
+| Principales estaciones de inicio y final del viaje. | **En viajes redondos la estación más elegida para viajes casuales es Lake Shore Dr & Monroe St** con \+700 viajes. Seguido por distintas estaciones que bordean o están cerca de la costa | En viajes redondos las 10 estaciones más elegidas entre los miembros rondan los 110 viajes y se ubican desde California Ave & Montrose Ave al norte hasta Shore Dr & 55th St al sur con concentración en la zona media entre el río Chicago y su desembocadura en el lago Michigan. La que más viajes tiene es Wabash Ave & Grand Av con un promedio de 162 viajes redondos de miembros. |
 
 **Recomendaciones:**
 
 * Las acciones de marketing podrían enfocarse en la zona geográfica de la costa que es donde se encuentran las 10 estaciones más utilizadas, con mayor intensidad en Streeter Dr & Grand Ave y Lake Shore Dr & Monroe.  
-* El mes de febrero es el mejor  mes del Q1 para aprovechar que los viajes suelen ser más largos para explotar la propuesta de valor minuto a minuto de la membresía anual.  
-* La franja semanal con mayor cantidad de usuarios casuales es durante las horas de sol del sábado y domingo y el mes con mayor cantidad de viajes es Marzo, se recomienda tenerlo en cuenta en caso de planificar desplegar promociones y activaciones de la campaña de membresía.  
+* El mes de marzo es el mejor  mes del Q1 que la media de viajes suele tener mayor duración, se puede aprovechar para acercar una propuesta de valor de la membresía respecto a viajes largos.  
+* La franja semanal con mayor cantidad de usuarios casuales es durante las horas de sol del sábado y domingo, se recomienda tenerlo en cuenta en caso de planificar desplegar promotores y activar la campaña de membresía.  
 * Considerar incluir en los datos brutos futuros el id de usuario para poder hacer un análisis más centrado en el comportamiento de los usuarios en el tiempo lo que permitiría incluir en futuros análisis, por ejemplo, la frecuencia de viajes.
-
-
 	
