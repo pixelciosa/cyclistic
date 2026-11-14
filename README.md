@@ -81,7 +81,10 @@ Los datos son publicados por la empresa que los recopila con licencia de uso pú
 **Recomendaciones:**
 
 * Las acciones de marketing podrían enfocarse en la zona geográfica de la costa que es donde se encuentran las 10 estaciones más utilizadas, con mayor intensidad en Streeter Dr & Grand Ave y Lake Shore Dr & Monroe.  
-* El mes de marzo es el mejor  mes del Q1 que la media de viajes suele tener mayor duración, se puede aprovechar para acercar una propuesta de valor de la membresía respecto a viajes largos.  
-* La franja semanal con mayor cantidad de usuarios casuales es durante las horas de sol del sábado y domingo, se recomienda tenerlo en cuenta en caso de planificar desplegar promotores y activar la campaña de membresía.  
+* Los usuarios casuales hacen viajes ~2,6 veces más largos, de ocio, en la costa y los fines de semana; se puede valorar ofrecer una membresía de fin de semana o estacional.  
+* La franja semanal con mayor cantidad de usuarios casuales es entre las 12 y la 17 horas del sábado y domingo, se recomienda tenerlo en cuenta en caso de planificar desplegar promotores y activar la campaña de membresía.
+
+  **Recomendaciones para futuros análisis:**
+  
 * Considerar incluir en los datos brutos futuros el id de usuario para poder hacer un análisis más centrado en el comportamiento de los usuarios en el tiempo lo que permitiría incluir en futuros análisis, por ejemplo, la frecuencia de viajes.
 	
