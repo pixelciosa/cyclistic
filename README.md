@@ -92,7 +92,7 @@ Los datos son publicados por la empresa que los recopila con licencia de uso pú
 
 | Métrica | Casual | Member |
 | :---- | :---- | :---- |
-| Distribución de la duración promedio de viaje | **El \~88% de los viajes son de menos de una hora**, y el \~11% de más de una hora. Tendencia que se mantiene estable entre el Q1 del 2019 y el Q1 del 2020\.  | El 99,7% de los viajes son de menos de una hora, y el 0,23% de más de una hora.  Tendencia que se mantiene estable entre el Q1 del 2019 y el Q1 del 2020\.  |
+| Distribución de la duración de los viajes | **El \~88% de los viajes son de menos de una hora**, y el \~11% de más de una hora. Tendencia que se mantiene estable entre el Q1 del 2019 y el Q1 del 2020\.  | El 99,7% de los viajes son de menos de una hora, y el 0,23% de más de una hora.  Tendencia que se mantiene estable entre el Q1 del 2019 y el Q1 del 2020\.  |
 | Duración promedio del viaje vs. mediana de viaje | Se observó que usar el promedio como métrica de duración ocultaba una pequeña cantidad de datos extremos que elevaban el promedio 3,9 veces por encima de la mediana, por lo que se usó la métrica del 2do cuartil, es decir la mediana, para las comparaciones. |  |
 | Mediana general de duración de viaje | **23 minutos**, es decir, 2,7 veces más que los miembros. | 8 minutos |
 | Mediana de duración de viaje según el día de la semana | **La mediana de tiempo más alta es los domingos** con 26,78 minutos, **seguido del sábado** con 24,23 **y el miércoles** 23,78 minutos. Los demás días se mantiene por debajo de 20,5 minutos  | Es muy estable, aunque tiende a aumentar algunos segundos el fin de semana  |
