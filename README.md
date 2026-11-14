@@ -2,7 +2,7 @@
 **Análisis de datos de uso del servicio de bicicletas urbanas de Chicago para su uso en marketing**
 
 ## Brief
-El propósito de este proyecto es implementar los conocimientos adquiridos en la [Certificación de Google y Coursera Analista de Datos Profesional](https://www.coursera.org/programs/crece-con-google-2026-fundacion-compromiso-05nl2/specializations/google-data-analytics). Se abordó según los lineamientos del ejercicio y se buscaron rasgos de uso diferenciadores del segmento de usuarios casuales, frente a los miembros anuales. Cabe destacar que el segmento de usuarios de interés es 11 veces menor a su contraparte, con lo cual, me centré en buscar tendencias dentro del propio segmento y en rasgos que al compararlo con el segmento de miembros, los casuales lo superaran, los cuales fueron el tiempo mediano de uso y la proporción de los viajes redondos. 
+El propósito de este proyecto es implementar los conocimientos adquiridos en la [Certificación de Google y Coursera Analista de Datos Profesional](https://www.coursera.org/programs/crece-con-google-2026-fundacion-compromiso-05nl2/specializations/google-data-analytics). Se abordó según los lineamientos del ejercicio y se buscaron rasgos de uso diferenciadores del segmento de viajes casuales, frente a los miembros anuales. Cabe destacar que el segmento de viajes de interés es 11 veces menor a su contraparte, con lo cual, me centré en buscar tendencias dentro del propio segmento y en rasgos que al compararlo con el segmento de miembros, los casuales lo superaran, los cuales fueron el tiempo mediano de uso y la proporción de los viajes redondos. 
 	
 ### [Presentación de resultados (PDF)](https://github.com/pixelciosa/cyclistic/blob/main/Cyclistic.pdf)
 
@@ -27,8 +27,19 @@ Las estaciones casuales rodean el lago (Streeter Dr & Grand Ave, Lake Shore Dr &
 
 <img src="Visualizaciones/10-estaciones-mas-usadas-retiro-devolucion.png" alt="Mapa de las 10 estaciones más usadas por tipo de usuario" width="700">
 
+**5. El segmento casual está creciendo mucho más rápido que el de miembros.**
+Entre el Q1 de 2019 y el Q1 de 2020, los viajes casuales casi se duplicaron, mientras que los de miembros crecieron ~11%. Los casuales pasaron de ser el 6% al 11% de todos los viajes.
+
+| Q1 | Viajes casuales | Viajes de miembros | % casual |
+| :---- | ----: | ----: | ----: |
+| 2019 | 23.163 | 341.906 | 6,3% |
+| 2020 | 44.714 | 378.406 | 10,6% |
+| **Variación** | **+93%** | **+11%** | |
+
+*Marzo de 2020 incluye 10 días de confinamiento por COVID, que redujeron los viajes de miembros (traslados al trabajo) en ese mes.*
+
 ## Bitácora del proyecto
-**Tarea de negocio:** Diferenciar los miembros anuales de los casuales según el uso que le dan a las bicicletas. Buscamos características que puedan usarse en estrategias de medios digitales para conseguir que los usuarios casuales prefieran ser miembros anuales.
+**Tarea de negocio:** Diferenciar los miembros anuales de los casuales según el uso que le dan a las bicicletas. Buscamos características que puedan usarse en estrategias de medios digitales para conseguir que los viajeros casuales prefieran ser miembros anuales.
 
 **Métricas:** duración mediana de viaje, proporción de viajes redondos, proporción de uso entre semana y fines de semana, distribución de tipos de usuario según horarios, días y meses de uso, principales estaciones de inicio y final del viaje.
 
@@ -109,4 +120,4 @@ Los datos son publicados por la empresa que los recopila con licencia de uso pú
 **Recomendaciones para futuros análisis:**
 
 * Considerar incluir en los datos brutos futuros el id de usuario para poder hacer un análisis más centrado en el comportamiento de los usuarios en el tiempo lo que permitiría incluir en futuros análisis, por ejemplo, la frecuencia de viajes.  
-* Valorar profundizar en los datos de usuarios casuales con viajes de más de un día que distorsiona mucho el promedio de tiempo.
+* Valorar profundizar en los datos de viajes casuales con duración de más de un día que distorsiona mucho el promedio de tiempo.
