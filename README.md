@@ -84,7 +84,8 @@ Los datos son publicados por la empresa que los recopila con licencia de uso pú
 * Los usuarios casuales hacen viajes ~2,6 veces más largos, de ocio, en la costa y los fines de semana; se puede valorar ofrecer una membresía de fin de semana o estacional.  
 * La franja semanal con mayor cantidad de usuarios casuales es entre las 12 y la 17 horas del sábado y domingo, se recomienda tenerlo en cuenta en caso de planificar desplegar promotores y activar la campaña de membresía.
 
-  **Recomendaciones para futuros análisis:**
+**Recomendaciones para futuros análisis:**
   
 * Considerar incluir en los datos brutos futuros el id de usuario para poder hacer un análisis más centrado en el comportamiento de los usuarios en el tiempo lo que permitiría incluir en futuros análisis, por ejemplo, la frecuencia de viajes.
+* Valorar profundizar en los datos de usuarios casuales con viajes de más de un día que distorsionan mucho el promedio de tiempo.
 	
