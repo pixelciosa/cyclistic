@@ -1,0 +1,15 @@
+"usertype","day_of_week","median_length_in_minutes","average_length_in_minutes"
+casual,Sunday,26.78,84.36
+casual,Monday,19.90,79.20
+casual,Tuesday,19.67,76.03
+casual,Wednesday,23.78,74.67
+casual,Thursday,20.23,140.86
+casual,Friday,19.98,101.51
+casual,Saturday,24.23,82.51
+member,Sunday,9.13,16.22
+member,Monday,8.38,13.71
+member,Tuesday,8.48,12.82
+member,Wednesday,8.45,11.87
+member,Thursday,8.37,11.79
+member,Friday,8.20,13.28
+member,Saturday,8.75,16.23

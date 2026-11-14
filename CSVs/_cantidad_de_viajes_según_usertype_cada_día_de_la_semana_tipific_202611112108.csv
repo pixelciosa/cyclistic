@@ -1,0 +1,15 @@
+"day_name","usertype","riders_count","day_type"
+Tuesday,member,127974,week_day
+Thursday,member,125228,week_day
+Wednesday,member,121902,week_day
+Friday,member,115168,week_day
+Monday,member,110430,week_day
+Sunday,member,60197,weekend
+Saturday,member,59413,weekend
+Sunday,casual,18652,weekend
+Saturday,casual,13473,weekend
+Friday,casual,8013,week_day
+Wednesday,casual,7690,week_day
+Tuesday,casual,7311,week_day
+Thursday,casual,7147,week_day
+Monday,casual,5591,week_day
